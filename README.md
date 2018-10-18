@@ -1,4 +1,4 @@
-# Density2D
+# HafniumPlotter
 
 Two-dimensional (2D) multivariate kernel density estimate (mKDE) plotter. This program requires the free MATLAB Runtime Compiler. See README files in the macOS and Windows directories. 
 
