@@ -1,5 +1,9 @@
 # HafniumPlotter
 
+## Sundell et al. (2019)
+
+## Sundell, K., Saylor, J.E. and Pecha, M., 2019. Provenance and recycling of detrital zircons from Cenozoic Altiplano strata and the crustal evolution of western South America from combined U-Pb and Lu-Hf isotopic analysis. In Andean Tectonics (pp. 363-397). Elsevier.
+
 Two-dimensional (2D) multivariate kernel density estimate plotter. This program requires the free MATLAB Runtime Compiler.
 
 The GUI requires installation of the free MATLAB Runtime. GUI release 1.70 requires MATLAB Runtime Compiler 2018b version 9.5. There are separate compilers for macOS and Windows. Install the compiler first, then run the .exe (Windows) or .app (macOS).
