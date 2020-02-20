@@ -32,4 +32,6 @@ https://github.com/kurtsundell/HafniumPlotter/releases
 
 Example data sets provided. Just import and open. There is pre-loaded data in the GUI.
 
+Here's a short information document: https://static1.squarespace.com/static/590bb57a46c3c4d418bfa9b0/t/5e4de6c5bf52ce7559068258/1582163657041/Info_HafniumPlotter.pdf
+
 Contact Kurt at kurtsundell@gmail.com or sundell@arizona.edu with any questions!
