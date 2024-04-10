@@ -1586,11 +1586,11 @@ end
 
 axis([str2double(get(H.xmin,'String')),str2double(get(H.xmax,'String')),str2double(get(H.ymin,'String')),str2double(get(H.ymax,'String'))]);
 
-%set(FIG,'FontSize',str2num(get(H.fontsize,'String')));
+set(gca,'FontSize',str2num(get(H.fontsize,'String')));
 
-%if get(H.bold,'Value') == 1
-%	set(FIG,'FontWeight','bold');
-%end
+if get(H.bold,'Value') == 1
+	set(gca,'FontWeight','bold');
+end
 	
 view(az);
 
@@ -1676,12 +1676,6 @@ if get(H.Yl', 'Value') == 1
 end
 
 hold off
-
-
-
-
-
-
 
 
 
@@ -2283,10 +2277,10 @@ end
 
 axis([str2double(get(H.xmin,'String')),str2double(get(H.xmax,'String')),str2double(get(H.ymin,'String')),str2double(get(H.ymax,'String'))]);
 
-set(H.axes1,'FontSize',str2num(get(H.fontsize,'String')));
+set(gca,'FontSize',str2num(get(H.fontsize,'String')));
 
 if get(H.bold,'Value') == 1
-	set(H.axes1,'FontWeight','bold');
+	set(gca,'FontWeight','bold');
 end
 	
 view(az);
